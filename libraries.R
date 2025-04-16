@@ -24,4 +24,3 @@ suppressPackageStartupMessages({
 options(readr.show_progress = FALSE)
 
 stopifnot(packageVersion("tidyverse") >= "5")
-# Another change
