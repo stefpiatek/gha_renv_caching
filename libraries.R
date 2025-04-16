@@ -19,7 +19,6 @@ suppressPackageStartupMessages({
   library(processx)
   library(rjson)
   library(tidyverse)
-  library(zip)
 })
 
 options(readr.show_progress = FALSE)
