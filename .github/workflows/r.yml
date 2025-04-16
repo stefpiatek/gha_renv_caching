@@ -1,8 +1,8 @@
-name: UCLH_test
+name: R
 
 on:
   pull_request:
-    branches: [main, master]
+  push:
 
 concurrency:
   group: ${{ github.ref }}-uclh
