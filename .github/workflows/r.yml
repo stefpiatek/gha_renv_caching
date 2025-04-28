@@ -1,8 +1,8 @@
 name: R
 
 on:
-  pull_request:
-  push:
+  pull_request: [main, master]
+  push: [main, master]
 
 concurrency:
   group: ${{ github.ref }}-uclh
