@@ -3,7 +3,8 @@ name: R
 on:
   pull_request:
     branches: [main, master]
-  push: [main, master]
+  push:
+    branches: [main, master]
 
 concurrency:
   group: ${{ github.ref }}-uclh
