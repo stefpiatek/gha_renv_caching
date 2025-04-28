@@ -17,7 +17,6 @@ suppressPackageStartupMessages({
   library(memoise)
   library(odbc)
   library(processx)
-  library(rjson)
   library(tidyverse)
 })
 
