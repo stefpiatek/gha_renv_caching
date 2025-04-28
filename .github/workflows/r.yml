@@ -1,7 +1,8 @@
 name: R
 
 on:
-  pull_request: [main, master]
+  pull_request:
+    branches: [main, master]
   push: [main, master]
 
 concurrency:
