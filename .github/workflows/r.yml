@@ -42,7 +42,10 @@ jobs:
         run: |
           ls -lhrt /home/runner/work/_temp/renv &&
           ls -lhrt renv/library &&
-          ls -lhrt ~/work/gha_renv_caching/gha_renv_caching/renv/library
+          ls -lhrt ~/work/gha_renv_caching/gha_renv_caching/renv/library &&
+          du -hs /home/runner/work/_temp/renv/* &&
+          du -hs renv/library &&
+          du -hs ~/work/gha_renv_caching/gha_renv_caching/renv/library
 
       - name: Increase swapfile
         # We run out of memory during tests so manually make a new swapfile
